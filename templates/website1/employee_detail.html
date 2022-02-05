@@ -1,0 +1,18 @@
+
+
+{% extends 'website1/base.html'%}
+
+{%block body_block%}
+<div class="jumbotron">
+	<h3> Employee Details </h3>
+
+ 
+	<ul>
+		<li>Employee Name: {{employee.name}}</li>
+		<li>Employee Age: {{employee.age}}</li>
+		<li>Employee Salary: {{employee.esal}}</li>
+		<li>Employee Address: {{employee.eaddr}}</li>
+	</ul>
+	</div>
+	{%endblock%}   
+
